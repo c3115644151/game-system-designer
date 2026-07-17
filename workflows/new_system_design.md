@@ -34,13 +34,14 @@
 **执行模式**：A-自主
 
 **操作说明**：
-- 复制 `../references/templates.md` 中的"系统GDD模板"到工作目录
-- 创建文档文件，命名为 `[系统名称]_设计文档.md`
+- 参照 `../references/template_gdd.md` 模板，创建文档文件
+- 命名为 `[系统名称]_设计文档.md`
+- 模板包含9个部分：Objectives → Overview → Mechanics → Data Flow → UI → Edge Cases → Configuration → Metrics & Analytics → Technical Notes
 - 后续每步完成后按需更新此文档
 
 **完成标准**：
 - 文档已创建
-- 模板结构完整（7个部分都有占位）
+- 模板结构完整（9个部分都有占位）
 
 **验证问题**：
 - 文档是否已创建并可编辑？

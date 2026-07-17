@@ -112,12 +112,17 @@ AI不应在不该确定的地方很确定。当信息不足或判断不确定时
 - **系统拆解**：System Stack方法（动词提取→系统映射→动作提取→依赖分组）
 - **经济系统**：Source-Sink模型（消耗量≈产出量×120%）
 - **成长曲线**：边际效用递减原则
-- **文档结构**：按系统组织，每个系统7部分（Objectives→Overview→Mechanics→Data Flow→UI→Edge Cases→Configuration）
+- **文档结构**：按场景独立模板，各场景模板文件位于 `references/` 目录下
+  - 场景1（新系统设计）：`template_gdd.md`，9部分（Objectives→Overview→Mechanics→Data Flow→UI→Edge Cases→Configuration→Metrics & Analytics→Technical Notes）
+  - 场景2（现有系统分析）：`template_system_analysis.md`，4部分
+  - 场景3（数值框架设计）：`template_numerical.md` + `template_numerical_excel_structure.md`，Markdown+Excel双载体
+  - 场景4（竞品研究）：`template_competitive.md`，4部分
+  - 场景5（问题诊断）：`template_diagnosis.md`，3部分
 
 ### 质量控制
 - 不能是直觉构建，必须有理论依据
 - 不能理想化假设，必须有验证方法
-- 所有模板参考 `references/templates.md`
+- 各场景模板参考对应的 `references/template_*.md` 文件
 
 ### 验证标准
 每条工作流路径的每步都有验证标准，验证不通过不能进入下一步。最终交付前检查：
